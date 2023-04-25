@@ -11,10 +11,13 @@ public class TestandoJFormattedTextField extends JFrame{
 
     private static final long serialVersionUID = 1L;
 
+
+
     public static void main(String[] args) {
         TestandoJFormattedTextField field = new TestandoJFormattedTextField();
         field.testaJFormattedTextField();
     }
+
     private void testaJFormattedTextField() {
         Container janela = getContentPane();
         setLayout(null);
@@ -71,5 +74,6 @@ public class TestandoJFormattedTextField extends JFrame{
         setSize(400,250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
+        // EXIT_ON_CLOSE define um comportamento para a janela
     }
 }
